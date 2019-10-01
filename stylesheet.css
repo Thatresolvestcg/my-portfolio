@@ -1,7 +1,80 @@
-  body {
-    background-color: black;
+body {
+  background-color: #e5cdb0;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #FFE4C4;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.menu{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #3a243b;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color: #e5cdb0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    background-color: #f5f2d0;    ;
     font-family: monospace;
-    color: green;
+    color: #3a243b;
+    padding: 2%;
+    margin: 5% 30% 5% 30%;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  a link {
+   color: #3a243b;
+  }
+  
+  a:visited {
+    color: #3a243b;
+  
+  }
+  a:hover {
+    font-weight: bold;
   }
 
   #rounded-image {
@@ -21,15 +94,34 @@
   h1, h2 {
     text-transform: uppercase;
   }
-
-  .menu {
-float: left;
+/* putting the menu and li a together to make my navbar changes visible to me easier */
+  /* .menu {
 font-size: 20px;
-
 text-transform: uppercase;
-border-color: green;
-border-style: dashed;
-border-width: 2px;
-margin: 20px;
-padding: 20px;
+display: inline;
   }
+li.menu {
+  float: left;
+}
+a.menu {
+  display: block;
+  text-align: center;
+  padding: 14px,16px;
+  text-decoration: none;
+  position: sticky;
+}
+
+li a {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #FFE4C4;
+}
+
+#likes-dislikes { 
+  list-style-type: upper-roman;
+}
+
+ */ 
+
