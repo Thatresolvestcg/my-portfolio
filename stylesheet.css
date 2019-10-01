@@ -70,11 +70,11 @@ h1, h2 {
 
   /* styling the form */
 form {
-  border-radius: 5px;
-  padding: 10px;
-  background-color: #F9FFFF;
-  margin: 20px;
-  width: 60%;
+  border-radius: 15px;
+  padding: 12px;
+  background-color: #F0FFFF;
+  margin: 10px;
+  width: 80%;
 }
 
   /* styling the inputs for name and email */
