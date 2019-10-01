@@ -5,7 +5,7 @@ body {
   margin: auto;
   width: 80%;
 }
-
+/* this is the start of the work around the nav bar */
 ul.menu {
   list-style-type: none;
   background-color: #333333;
@@ -32,6 +32,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
 }
+/* this is the end of the work on the nav bar - I would like to improve this */
 
 li a:hover {
   background-color: #111111;
@@ -46,7 +47,7 @@ font-weight: bold;
 }
 
 
-
+/* this is for my picture to make it round */
 #rounded-image {
   width: 300px;
   height: 300px;
@@ -60,7 +61,63 @@ font-weight: bold;
   justify-content: center;
 }
 
+
 h1, h2 {
   text-transform: uppercase;
   font-weight: lighter;
   }
+
+
+  /* styling the form */
+form {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #F9FFFF;
+  margin: 20px;
+  width: 60%;
+}
+
+  /* styling the inputs for name and email */
+input {
+  width: 100%;
+  padding: 4px 4px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  color: #333333;
+  float: right;
+}
+input:focus {
+  border: 2px solid #666;
+  outline: none
+}
+/* styling the message box */
+textarea {
+  width: 100%;
+  padding: 4px 4px;
+  box-sizing: border-box;
+  background-color: #F9FFFF;
+  color: #333333;
+  resize: none;
+  height: 50px;
+}
+textarea:focus {
+  border: 2px solid #666;
+  outline: none;
+}
+/* styling the buttons */
+button[type=submit], button[type=reset] {
+  color: #F0FFFF;
+  background-color: #333;
+  border: none;
+  padding: 6px 4px;
+  margin: 4px 3px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  width: 120px;
+  height: 30px;
+}
+button:hover {
+  font-weight: bold;
+}
+
