@@ -65,6 +65,8 @@ font-weight: bold;
 h1, h2 {
   text-transform: uppercase;
   font-weight: lighter;
+  margin: 30px;
+  padding: 10px;
   }
 
 
