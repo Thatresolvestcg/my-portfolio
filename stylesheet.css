@@ -1,5 +1,5 @@
 body {
-  background-color: #F0FFFF;
+  background-color: #f9ffff;
   color: #333333;
   font-family: monospace;
   margin: auto;
@@ -14,7 +14,7 @@ ul.menu {
   overflow: hidden;
 }
 
-.menu{
+.menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -25,7 +25,7 @@ li a {
   float: left;
   border-right: 1px solid #333333;
   display: block;
-  color: #F0FFFF;
+  color: #f0ffff;
   text-align: center;
   padding: 14px 16px;
 }
@@ -40,15 +40,14 @@ a {
 }
 
 a:hover {
-font-weight: bold;
+  font-weight: bold;
 }
-
 
 /* this is for my picture to make it round */
 #rounded-image {
   width: 300px;
   height: 300px;
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 .display-image {
@@ -58,26 +57,26 @@ font-weight: bold;
   justify-content: center;
 }
 
-
-h1, h2 {
+h1,
+h2 {
   text-transform: uppercase;
   font-weight: lighter;
   margin: 30px;
   padding: 10px;
-  }
+}
 
-
-  /* styling the form */
+/* styling the form */
 form {
   border-radius: 15px;
   padding: 14px;
-  margin: 30px; 
-  width: 100%; 
+  margin: 30px;
+  width: 50%;
   justify-content: center;
-  color: #333;
+  color: #f0ffff;
+  background: #333;
 }
 
-  /* styling the inputs for name and email */
+/* styling the inputs for name and email */
 input {
   width: 100%;
   padding: 4px 4px;
@@ -88,14 +87,14 @@ input {
 }
 input:focus {
   border: 2px solid #666;
-  outline: none
+  outline: none;
 }
 /* styling the message box */
 textarea {
   width: 100%;
   padding: 4px 4px;
   box-sizing: border-box;
-  background-color: #F9FFFF;
+  background-color: #f9ffff;
   color: #333333;
   resize: none;
   height: 50px;
@@ -105,8 +104,9 @@ textarea:focus {
   outline: none;
 }
 /* styling the buttons */
-button[type=submit], button[type=reset] {
-  color: #F0FFFF;
+button[type="submit"],
+button[type="reset"] {
+  color: #f0ffff;
   background-color: #333;
   border: none;
   padding: 6px 4px;
@@ -114,6 +114,7 @@ button[type=submit], button[type=reset] {
   text-decoration: none;
   cursor: pointer;
   outline: none;
+  border: 1px solid #f0ffff;
   width: 120px;
   height: 30px;
 }
@@ -128,8 +129,9 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
+  margin-top: 30px;
   width: 100%;
   text-align: left;
   background-color: #333333;
-  color: #F0FFFF;
+  color: #f0ffff;
 }
