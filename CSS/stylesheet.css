@@ -45,8 +45,8 @@ a:hover {
 
 /* this is for my picture to make it round */
 #rounded-image {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
 }
 
@@ -59,10 +59,14 @@ a:hover {
 
 h1,
 h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-transform: uppercase;
   font-weight: lighter;
-  margin: 30px;
-  padding: 10px;
+  margin: 20px;
+  padding: 20px;
 }
 
 /* styling the form */
@@ -70,8 +74,11 @@ form {
   border-radius: 15px;
   padding: 14px;
   margin: 30px;
-  width: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: stretch;
   color: #f0ffff;
   background: #333;
 }
@@ -134,4 +141,34 @@ footer {
   text-align: left;
   background-color: #333333;
   color: #f0ffff;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.inner-card {
+  box-shadow: 0 4px 8px 0 #666;
+  transition: 0.3s;
+  width: 50%;
+  padding: 8px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-para {
+  width: 80%;
+}
+.inner-card:hover {
+  box-shadow: 0 8px 16px 0 #666;
+}
+
+.card-link {
+  font-weight: bold;
+  color: #333333;
+  text-decoration: underline;
 }

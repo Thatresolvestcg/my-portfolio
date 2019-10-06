@@ -1,1 +1,1 @@
-console.log("Welcome to the index page");
+console.log("Welcome to the home page");
