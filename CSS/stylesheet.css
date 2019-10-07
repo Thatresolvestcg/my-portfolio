@@ -1,5 +1,5 @@
 body {
-  background-color: #F0FFFF;
+  background-color: #f9ffff;
   color: #333333;
   font-family: monospace;
   margin: auto;
@@ -20,21 +20,18 @@ ul.menu {
   overflow: hidden;
 }
 
-.menu{
+.menu {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
 
-li {
+li a {
   float: left;
   border-right: 1px solid #333333;
-}
-
-li a {
   display: block;
-  color: #F0FFFF;
+  color: #f0ffff;
   text-align: center;
   padding: 14px 16px;
 }
@@ -49,15 +46,14 @@ a {
 }
 
 a:hover {
-font-weight: bold;
+  font-weight: bold;
 }
-
 
 /* this is for my picture to make it round */
 #rounded-image {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%
+  width: 350px;
+  height: 350px;
+  border-radius: 15%;
 }
 
 .display-image {
@@ -67,25 +63,33 @@ font-weight: bold;
   justify-content: center;
 }
 
-
-h1, h2 {
+h1,
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-transform: uppercase;
   font-weight: lighter;
-  margin: 30px;
-  padding: 10px;
-  }
-
-
-  /* styling the form */
-form {
-  border-radius: 15px;
-  padding: 12px;
-  background-color: #F0FFFF;
-  margin: 10px;
-  width: 80%;
+  margin: 20px;
+  padding: 20px;
 }
 
-  /* styling the inputs for name and email */
+/* styling the form */
+form {
+  border-radius: 15px;
+  padding: 14px;
+  margin: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  color: #f0ffff;
+  background: #333;
+}
+
+/* styling the inputs for name and email */
 input {
   width: 100%;
   padding: 4px 4px;
@@ -96,14 +100,14 @@ input {
 }
 input:focus {
   border: 2px solid #666;
-  outline: none
+  outline: none;
 }
 /* styling the message box */
 textarea {
   width: 100%;
   padding: 4px 4px;
   box-sizing: border-box;
-  background-color: #F9FFFF;
+  background-color: #f9ffff;
   color: #333333;
   resize: none;
   height: 50px;
@@ -113,8 +117,9 @@ textarea:focus {
   outline: none;
 }
 /* styling the buttons */
-button[type=submit], button[type=reset] {
-  color: #F0FFFF;
+button[type="submit"],
+button[type="reset"] {
+  color: #f0ffff;
   background-color: #333;
   border: none;
   padding: 6px 4px;
@@ -122,6 +127,7 @@ button[type=submit], button[type=reset] {
   text-decoration: none;
   cursor: pointer;
   outline: none;
+  border: 1px solid #f0ffff;
   width: 120px;
   height: 30px;
 }
@@ -129,13 +135,64 @@ button:hover {
   font-weight: bold;
 }
 
+ul {
+  list-style-type: none;
+}
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
+  margin-top: 30px;
   width: 100%;
   text-align: left;
   background-color: #333333;
+<<<<<<< HEAD:stylesheet.css
   color: #F0FFFF;
   font-size: 12px;
 }
+=======
+  color: #f0ffff;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.inner-card {
+  box-shadow: 0 4px 8px 0 #666;
+  transition: 0.3s;
+  width: 50%;
+  padding: 8px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-para {
+  width: 80%;
+}
+.inner-card:hover {
+  box-shadow: 0 8px 16px 0 #666;
+}
+
+.card-link {
+  border-radius: 3%;
+  font-weight: bold;
+  color: #333333;
+  text-decoration: underline;
+}
+.card-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+}
+.image-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+>>>>>>> dbaaa163b7cfa1013352f07cfcb82715f23bccbb:CSS/stylesheet.css
