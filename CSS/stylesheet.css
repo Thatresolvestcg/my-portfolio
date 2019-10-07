@@ -34,6 +34,10 @@ li a {
 li a:hover {
   background-color: #111111;
 }
+p a {
+  text-decoration: none;
+  color: #111;
+}
 
 a {
   text-decoration: none;
@@ -169,9 +173,10 @@ footer {
 
 .card-link {
   border-radius: 3%;
-  font-weight: bold;
   color: #333333;
-  text-decoration: underline;
+}
+.card-link:hover {
+  font-weight: bold;
 }
 .card-image {
   width: 150px;
