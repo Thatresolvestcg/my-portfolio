@@ -5,6 +5,12 @@ body {
   margin: auto;
   width: 80%;
 }
+
+p {
+  display: flex;
+
+}
+
 /* this is the start of the work around the nav bar */
 ul.menu {
   list-style-type: none;
@@ -131,4 +137,5 @@ footer {
   text-align: left;
   background-color: #333333;
   color: #F0FFFF;
+  font-size: 12px;
 }
