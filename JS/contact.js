@@ -2,16 +2,16 @@ console.log("Hello friends, welcome to the contact page.");
 
 function userName() {
   var name = document.getElementById("name");
-  console.log("Your name is: " + name.value);
+  alert("Your name is: " + name.value);
 }
 
 function userMail() {
   var email = document.getElementById("mail");
-  console.log("Your email is: " + email.value);
+  alert("Your email is: " + email.value);
 }
 function userMessage() {
   var message = document.getElementById("msg");
-  console.log("Your message is: " + message.value);
+  alert("Your message is: " + message.value);
 }
 
 var submit = document.getElementById("submit");
